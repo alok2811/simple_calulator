@@ -40,9 +40,9 @@ class HomeView extends StatelessWidget {
                   children:  [
                     TableRow(
                       children:[
-                       BuildButton(buttonText: "C", buttonHeight: 1, buttonColor: Colors.redAccent),
-                       BuildButton(buttonText: "⌫", buttonHeight: 1, buttonColor: Colors.blue),
-                       BuildButton(buttonText: "÷", buttonHeight: 1, buttonColor: Colors.blue),
+                       BuildButton(buttonText: "C", buttonHeight: 1, buttonColor: Colors.blue),
+                       BuildButton(buttonText: "⌫", buttonHeight: 1, buttonColor: const Color(0xffF28B31)),
+                       BuildButton(buttonText: "÷", buttonHeight: 1, buttonColor: const Color(0xffF28B31)),
                       ]
                     ),
 
@@ -86,19 +86,19 @@ class HomeView extends StatelessWidget {
                 child: Table(
                   children: [
                     TableRow(
-                      children:[ BuildButton(buttonText: '×', buttonHeight: 1, buttonColor: Colors.blue),
+                      children:[ BuildButton(buttonText: '×', buttonHeight: 1, buttonColor: const Color(0xffF28B31)),
                     ]),
 
                     TableRow(
-                        children:[ BuildButton(buttonText: '-', buttonHeight: 1, buttonColor: Colors.blue),
+                        children:[ BuildButton(buttonText: '-', buttonHeight: 1, buttonColor: const Color(0xffF28B31)),
                         ]),
 
                     TableRow(
-                        children:[ BuildButton(buttonText: '+', buttonHeight: 1, buttonColor: Colors.blue),
+                        children:[ BuildButton(buttonText: '+', buttonHeight: 1, buttonColor: const Color(0xffF28B31)),
                         ]),
 
                     TableRow(
-                        children:[ BuildButton(buttonText: '=', buttonHeight: 2, buttonColor: Colors.redAccent),
+                        children:[ BuildButton(buttonText: '=', buttonHeight: 2, buttonColor: Colors.blue),
                         ]),
 
                   ],
